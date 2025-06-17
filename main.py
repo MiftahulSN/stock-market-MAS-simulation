@@ -159,6 +159,6 @@ class StockExchange:
 
 
 if __name__ == "__main__":
-    dataset = "Project UAS\dataset.csv"
+    dataset = "dataset.csv"
     stock_sim = StockExchange(dataset=dataset, company_code="PRAY", num_traders=10)
     stock_sim.run_simulation(steps=100)
